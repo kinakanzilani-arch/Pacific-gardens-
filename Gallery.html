@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Pacific Gardens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to bottom, #007BFF, #66b3ff);
+            color: white;
+            text-align: center;
+        }
+        header {
+            background-color: #0056b3;
+            padding: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #0056b3;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Gallery</h1>
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="about us.html">About us</a>
+        <a href="contact us.html">Contact us</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+</header>
+
+<div class="project">
+    <img src="garden1.jpg" alt="garden1">
+    <img src="garden2.jpg" alt="garden2">
+    <img src="garden3.jpg" alt="garden3">
+    <img src="garden4.jpg" alt="garden4">
+</div>
+
+<footer>
+    <p>&copy; 2026 Pacific Gardens. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
